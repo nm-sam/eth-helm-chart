@@ -1,0 +1,21 @@
+apiVersion: v2
+name: execution-beacon
+description: A Helm chart for deploying Ethereum execution and consensus clients
+type: application
+version: 1.0.11
+appVersion: 0.0.1
+keywords:
+  - ethereum
+  - blockchain
+  - nethermind
+  - prysm
+  - p2p
+home: https://www.ethereum.org/
+maintainers:
+  - name: 0xDones
+  - name: matilote
+
+dependencies:
+  - name: common
+    repository: file://../common
+    version: 1.0.0
