@@ -49,7 +49,7 @@ jobs:
         with:
           charts_dir: charts
         env:
-          CR_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          CR_TOKEN: ${{ secrets.CA_TOKEN }}
           CR_SKIP_EXISTING: true
           CR_GENERATE_RELEASE_NOTES: true
 
